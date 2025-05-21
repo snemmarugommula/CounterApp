@@ -1,0 +1,35 @@
+.container1{
+    background-color:rgb(244, 244, 142);
+    }
+    h1{
+        font-size: 50px;
+        color:black;
+        animation: fadeIn 10s;
+    }
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      
+      
+    img{
+        float:left;
+        height:120px;
+        width:300px;
+    }
+    .container2{
+        background-color: #F96167;
+        display:flex;
+        flex-direction: row;
+        column-gap: 300px;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+    p{
+        color:black;
+        font-size:25px;
+    
+    }
+    

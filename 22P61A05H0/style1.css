@@ -1,0 +1,117 @@
+body,html{
+  height:100%;
+}
+.container1{
+background-color:rgb(244, 244, 142);
+}
+h1{
+    font-size: 50px;
+    color:black;
+    animation: fadeIn 10s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+img{
+    float:left;
+    height:120px;
+    width:300px;
+}
+.container2{
+    background-color: #F96167;
+    display:flex;
+    flex-direction: row;
+    column-gap: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+p{
+    color:black;
+    font-size:25px;
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.con{
+  background-color:rgb(153, 204, 187);
+
+}
+
+form {
+ border-radius: 20px;
+    width:40%;
+    
+    margin-left:400px;
+    justify-content: center;
+    border: 3px solid #131212;
+  }
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    
+    display: inline-block; 
+    font-size: 10px;
+    border: 1px solid #141010;
+    box-sizing: border-box;
+    box-shadow: 10px blue;
+    width:50%;
+    padding: 10px 12px;
+    
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 19px 30px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:20%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: 20%;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
